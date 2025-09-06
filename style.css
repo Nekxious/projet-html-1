@@ -1,0 +1,25 @@
+body {
+  background: blue;
+  background-image: url("./PSG_Logo.png");
+  background-size: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+#pageTitle {
+  text-align: center;
+}
+
+.match {
+  padding: 8px;
+  margin: 8px;
+  display: inline-block;
+  border: 2px red inset;
+  background: rgb(152, 114, 222);
+
+  p {
+    display: inline;
+  }
+}
